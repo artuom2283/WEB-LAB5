@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="lab5/styles/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛАБ5</title>
+</head>
+<body>
+
+<header class="header">
+  <div class="header_inner">
+    <p class="text-black mt-3">Пузенко Артем</p>
+    <p class="text-black mt-3">Тема тесту: Стилі CSS</p>
+    <p class="text-black mt-3">ТР-23</p>
+</div>
+</header>
+
+<main>
+    <section class="hidden modal">
+        <div class="quiz_inner">
+                <div class="flex">
+                    <h2>Будь ласка, введіть ПІБ та групу</h2>
+                    <input type="text" class="login_input" placeholder="ПІБ" name="name">
+                    <input type="text" class="login_input" placeholder="Група" name="group">
+                </div>
+            </form>
+        </div>
+        <button class="submit_btn" id="submit_btn">Почати</button>
+    </section>
+    <div class="overlay hidden"></div>
+    <button class="login_btn">Розпочати тест</button>
+</main>
+
+<script src="./js/scriptQuiz.js"></script>
+
+</body>
+</html>
